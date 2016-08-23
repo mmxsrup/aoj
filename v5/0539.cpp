@@ -20,7 +20,6 @@ int main(void){
 
 		vector<int> k(m);
 		rep(i, m) cin >> k[i];
-
 		int sum = 0;
 		rep(i, m){
 			//２分探索でk[i]の前後の店舗の位置を見つける

@@ -17,8 +17,7 @@ int main(void){
 		rep(i, n + 1)rep(j, n + 1){
 			pp[cnt] = p[i] + p[j];
 			cnt++;
-		}
-	
+		}	
 		sort(pp.begin(), pp.end());
 		int ans = 0;
 		//計算量(n^2*logn)
